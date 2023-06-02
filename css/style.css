@@ -51,3 +51,50 @@ table {
 
 
 /* Write your css below here */
+
+
+*{
+	/* background-color: aliceblue; */
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: white;
+}
+
+
+
+main{
+/* height: 80vh; */
+display: grid;
+grid-template-columns: auto;
+}
+
+footer{
+	background-color: navy;
+	color: aliceblue;
+}
+
+/* MEDIA QUERRY */
+
+
+@media screen and (width >=284) {
+	.main-container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows:repeat(4) 2fr ;
+
+	}
+	
+}
+@media screen and (width >=800) {
+	.main-container{
+		display: grid;
+		grid-template-columns:repeat(4) 1fr;
+		grid-template-rows:4fr 2fr 2fr;
+
+		
+	}
+}
