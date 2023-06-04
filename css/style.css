@@ -80,7 +80,7 @@ footer{
 /* MEDIA QUERRY */
 
 
-@media screen and (width >=284) {
+@media screen and (width >=284px) {
 	.main-container{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -89,7 +89,7 @@ footer{
 	}
 	
 }
-@media screen and (width >=800) {
+@media screen and (width >=800px) {
 	.main-container{
 		display: grid;
 		grid-template-columns:repeat(4) 1fr;
